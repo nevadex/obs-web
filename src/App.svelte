@@ -86,7 +86,7 @@
       address = document.location.hash.slice(1)
 
       // This allows you to add a password in the URL like this:
-      // http://obs-web.niek.tv/#ws://localhost:4455#password
+      // http://.niek.tv/#ws://localhost:4455#password
       if (address.includes('#')) {
         [address, password] = address.split('#')
       }
@@ -353,7 +353,7 @@
   <div class="navbar-brand">
     <a class="navbar-item is-size-4 has-text-weight-bold" class:util-bp50={isOutputActive} href="/">
       <img src="favicon.png" alt="OBS-web" class="rotateNOT" />
-      <span style="margin-left: 10%;">OBS-web</span>
+      <span style="margin-left: 10%;">OBS</span>
     </a>
 
     <!-- svelte-ignore a11y-missing-attribute -->
