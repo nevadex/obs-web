@@ -511,8 +511,8 @@
               </span>
               {#if replayError}<span>{replayError}</span>{/if}
             </button>-->
-            <ProfileSelect />
-            <SceneCollectionSelect />
+<!--            <ProfileSelect />-->
+<!--            <SceneCollectionSelect />-->
             <button
               class="button is-danger is-light"
               disabled={isSettingsLocked}
